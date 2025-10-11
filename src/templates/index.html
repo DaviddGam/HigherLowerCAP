@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Higher or Lower - 1891</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1> Higher or Lower <p></p>
+            Goles - 1891 </h1>
+
+        <div class="score-board">
+            Puntaje: <span id="score">0</span>
+        </div>
+
+        <div class="card-container">
+            <div class="card" id="player1">
+                <img src="" alt="Jugador 1">
+                <h2 id="name1"></h2>
+                <p id="goals1"></p>
+            </div>
+
+            <div class="card" id="player2">
+                <img src="" alt="Jugador 2">
+                <h2 id="name2"></h2>
+                <p id="goals2">Goles: ?</p>
+
+                <!-- Botones solo para jugador 2 -->
+                <div class="buttons">
+                    <button id="lower">Lower</button>
+                    <button id="higher">Higher</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
