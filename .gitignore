@@ -1,0 +1,23 @@
+# Ignorar carpetas de compilación
+dist/
+build/
+
+# Ignorar ejecutables grandes
+*.exe
+*.pkg
+
+# Ignorar archivos temporales de sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignorar entornos de Python si los tenés
+__pycache__/
+*.py[cod]
+env/
+venv/
+
+# Ignorar imágenes temporales o cachés (opcional)
+*.cache
