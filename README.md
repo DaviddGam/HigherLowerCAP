@@ -1,2 +1,2 @@
 # HigherLowerCAP
-Quien tiene mas goles en la historias de Peñarol, prueba tus conocimientos futbolisticos!!
+Quien tiene mas goles en la historia de Peñarol, prueba tus conocimientos futbolisticos!!
