@@ -90,8 +90,7 @@ def get_players():
 # --------------------------
 # Ejecutar app y abrir navegador automáticamente
 # --------------------------
-if __name__ == '__main__':
-    import webbrowser
-    url = "http://127.0.0.1:5000"
-    webbrowser.open(url)
-    app.run(debug=False)  # no debug → no doble apertura
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 5000))  # usa el puerto que Render da
+    app.run(host="0.0.0.0", port=port)
