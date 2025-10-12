@@ -1,5 +1,6 @@
+Flask==2.3.2
+pandas==2.1.0
 requests
 beautifulsoup4
-pandas
 selenium
 webdriver-manager
